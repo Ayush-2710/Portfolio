@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Portfolio
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ET_port_css.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div id="mySidebar" class="sidebar">
+            <div class="closebtn" onclick="closeNav()">x</div>
+            <div><b>About</b></div>
+            <a href="resume.html" target="_blank"><div>Resume</div></a>
+            <a href="previous_education.html" target="_blank"><div>Previous Education</div></a>
+            <a href="hobbies.html" target="_blank"><div>Hobbies</div></a>
+            <a href="contact.html" target="_blank"><div>Contact Me</div></a>
+        </div>
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()"><i class="material-icons">menu</i></button> 
+            <p class="one">Portfolio for Mechanical Engineering</p>
+            <br>
+            <div>
+                <p>
+                    My name is Ayush Patel.
+                </p>
+                <br><br>
+                <p>
+                    I am currently pursuing Mechnaical Engineering from MIT Academy of Engineering.
+                </p>
+                <br><br>
+                <p>
+                    This is my digital portfolio which gives a briefing about everything.
+                </p>
+            </div>
+            <br><br><br><br>
+            <section class="home">
+                <div class="home-content">
+                    <div class="btn-box">
+                        <a><div>Learnt in HTML</div></a>
+                        <a href="form.html" target="_blank">Form Making</a>
+                        <a href="timetable.html" target="_blank">Timetable</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script>
+            function openNav() {
+            document.getElementById("mySidebar").style.width = "300px";
+            document.getElementById("main").style.marginLeft = "300px";
+            }
+            
+            function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+    </body>
+</html>

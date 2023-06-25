@@ -1,0 +1,70 @@
+body{
+    background-color: wheat;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    background-size:contain;
+    
+}
+
+span.two{
+    cursor:auto;
+}
+
+table,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+   
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+th{
+    background-color: rgb(241, 52, 52);  
+    font-size: 20px;
+}
+
+th.two{
+    background-color: red;
+}
+
+th.one{
+    background-color: yellow;
+    font-size: 20px;
+}
+
+td{
+    background-color: rgb(8, 234, 8);
+    text-shadow: #D6EEEE;
+}
+
+caption{
+    font-size: 40px;
+    line-height: 60px;
+}
+
+div.wow{
+    padding: 30px;
+}
+
+th.th{
+    background-color: rgb(237, 237, 121);
+}
+
+td.er{
+    background-color: rgb(149, 236, 149);
+}
+
+th.ot{
+    background-color: rgb(239, 159, 159);
+}
+
+td.tw{
+    background-color: yellowgreen;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size: 25px;
+}

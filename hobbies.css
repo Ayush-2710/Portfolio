@@ -1,0 +1,35 @@
+body{
+    color: rgb(255, 255, 255);
+  }
+
+  .home{
+    height: 100vh;
+    background: rgb(170, 168, 168);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+  }
+  .home-content{
+    background-color: transparent;
+    max-width: 600px;
+  }
+  .home-content h1{
+    font-size:40px ;
+    font-weight: 500px;
+  }
+  .home-content h3{
+    font-size: 30px;
+    font-weight: 500px;
+    color:rgb(0, 242, 255) ;
+  }
+
+  h3{
+    padding-bottom: 0px;
+    padding-top: 20px;
+    text-shadow: black 1px 3px 4px;  
+  }
+  h1{
+    text-shadow: black 10px 8px 2px;
+  }
